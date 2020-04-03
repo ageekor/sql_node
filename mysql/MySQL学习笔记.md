@@ -41,6 +41,7 @@ desc pet;
 
 -- 查询表
 SELECT * from pet;
+SELECT *from pet where name = 'squirrel';
 
 -- 插入数据
 INSERT INTO pet VALUES ('puffball', 'Diane', 'hamster', 'f', '1990-03-30', NULL);
